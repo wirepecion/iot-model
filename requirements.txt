@@ -1,0 +1,2 @@
+# Training / export only (PC or Colab). AGPL-3.0; pulls in torch.
+ultralytics

@@ -1,0 +1,5 @@
+# Raspberry Pi (64-bit OS). No torch, no ultralytics needed here.
+# Camera: sudo apt install python3-picamera2   (use: python3 -m venv --system-site-packages ...)
+onnxruntime
+opencv-python-headless
+numpy

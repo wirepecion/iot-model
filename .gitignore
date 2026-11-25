@@ -1,0 +1,16 @@
+# Secrets
+.env
+
+# Python environment and caches
+iot/
+pyvenv.cfg
+__pycache__/
+*.pyc
+
+# Data and generated files (download / train them yourself)
+/dataset
+runs/
+models/
+snapshots/
+*.pt
+*.onnx
