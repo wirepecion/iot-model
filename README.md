@@ -3,7 +3,13 @@
 Trains a small YOLO26n object detector that draws a box around each eye and says whether it is
 `open_eyes` or `close_eyes`, then exports it to ONNX to run on the Raspberry Pi.
 
-## Run
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wirepecion/iot-model/blob/main/train_colab.ipynb)
+
+**No GPU? Train free on Google Colab:** click the badge, choose *Runtime → Change runtime type → T4 GPU*, then
+*Runtime → Run all*. It clones this repo, downloads the dataset (Roboflow API key, or upload the zip), trains,
+and downloads `eyes.onnx`. Training on a CPU-only laptop is very slow and can run out of RAM.
+
+## Run on your own machine
 
 ```bash
 pip install -r requirements.txt     # on a PC or Colab, ideally with a GPU

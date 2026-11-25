@@ -2,7 +2,7 @@
 .env
 
 # Python environment and caches
-iot/
+/iot
 pyvenv.cfg
 __pycache__/
 *.pyc
